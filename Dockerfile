@@ -11,6 +11,8 @@ ENV HOME            /root
 ENV LC_ALL          C.UTF-8
 ENV LANG            en_US.UTF-8
 ENV LANGUAGE        en_US.UTF-8
+ENV USER_ID         99
+ENV GROUP_ID        100
 
 # Use baseimage-docker's init system
 CMD ["/sbin/my_init"]

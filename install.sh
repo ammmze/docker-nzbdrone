@@ -5,8 +5,8 @@
 #########################################
 
 # Configure user nobody to match unRAID's settings
-usermod -u 99 nobody
-usermod -g 100 nobody
+usermod -u $UER_ID nobody
+usermod -g $GROUP_ID nobody
 usermod -d /home nobody
 chown -R nobody:users /home
 
